@@ -1,3 +1,7 @@
+
+export const runtime = "nodejs";
+
+
 import { connectDB } from "@/lib/db";
 import User from "@/models/User";
 import crypto from "crypto";
